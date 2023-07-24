@@ -17,6 +17,12 @@ Currently, most art commission and trading websites, e.g., SuperRare and KnownOr
 We have chosen to refrain from using a public blockchain due to the potential for high gas fees, which the sponsor undesired. Instead, we have opted to leverage the benefits of the Hyperledger Fabric blockchain for our art commission and trading platform. Hyperledger Fabric provides a permissioned blockchain platform that allows us to avoid gas fees while maintaining a secure and efficient network for transaction processing. With Hyperledger Fabric, we can control access to the network, tailor the consensus algorithm to our specific use case, and develop custom contracts using various programming languages. Additionally, we can leverage Hyperledger Fabric's modular architecture to customize the platform to our specific needs, allowing us to provide a seamless and user-friendly experience for the creative society. 
 
 ### Chaincode - TypeScript
+Official Tutorial: https://hyperledger-fabric.readthedocs.io/en/release-1.3/chaincode.html
+
+Also known as a smart contract, the chain code is responsible for defining the business logic that governs the operations and transactions in the network. Chain code is written in programming languages such as Golang, Java, or Node.js and can be employed in the network as a set of executable containers. Once deployed, authorized network participants can invoke or query chain code to carry out transactions or update the blockchain ledger [4]. 
+We chose Typescript as the programming language for the chain-code development with Node.js SDK. From the classes to the methods, we defined necessary entities as User, ArtistContract, Milestone, etc., and implemented essential methods for each class to demonstrate the business logic of the chain. 
+The chain code should be deployed in the test network for API Endpoints to work and transactions and queries to be sent to the chain. Setting up the network and deploying the chain code involves a tedious process. The deployment section and the third attachment will convey a clear blueprint for this purpose. 
+
 
 ### Database Design - MongoDB
 
