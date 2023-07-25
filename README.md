@@ -2,6 +2,8 @@
 for ECE 493 at the University of Alberta
 Sponsored by Suissa Design
 
+![alt text](https://github.com/jul-louis/jul-louis/blob/main/Kraken%20Louis.png](https://github.com/jul-louis/Capstone-NFTMintingContractManagementSystem/blob/main/poster.png)?raw=true)
+
 ## Technologies
 
 ### Hyperledger Fabric
